@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HW3</title>
+</head>
+<body>
+
+    <form action="#" method="get" name="form">
+        <span>Ваше имя</span><br><br>
+        <input type="text" name="FirstName" placeholder="Введите имя" required><br><br>
+
+        <span>Ваша фамилия</span><br><br>
+        <input type="text" name="SecondName" placeholder="Введите фамилию" required><br><br>
+
+        <span>Ваш email</span><br><br>
+        <input type="email" name="email" placeholder="Введите email" required><br><br>
+
+        <span>Ваша дата рождения</span><br><br>
+        <input type="date" name="BirthdayDate" required><br><br>
+
+        <span>Ваш телефон</span><br><br>
+        <input type="tel" name="tel" placeholder="380-000-0000" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}-[0-9]{2}-[0-9]{2}" required><br><br>
+
+        <span>Выберите размер</span><br><br>
+        <label><input type="radio" name="size" value="XS">XS</label><br><br>
+        <label><input type="radio" name="size" value="S">S</label><br><br>
+        <label><input type="radio" name="size" value="M">M</label><br><br>
+        <label><input type="radio" name="size" value="L">L</label><br><br>
+
+        <span>Дополнительные опции</span><br><br>
+        <label><input type="checkbox" name="services" value="delivery">Доставка</label><br><br>
+        <label><input type="checkbox" name="services" value="pay-card">Оплата картой</label><br><br>
+        <label><input type="checkbox" name="services" value="call-me">Перезвоните мне</label><br><br>
+
+        <span>Выберите цвет</span><br><br>
+        <select name="color">
+            <option value="Red">Красный</option>
+            <option value="Blue">Синий</option>
+            <option value="White">Белый</option>
+            <option value="Black">Чёрный</option>
+        </select><br><br>
+
+        <button type="submit"> Отправить </button>
+
+    </form>
+
+
+
+</body>
+</html>
